@@ -1,0 +1,7 @@
+D:\Cursos\Fazendo\C# POO\Curso\CursoPOO\CursoPOO\bin\Debug\CursoPOO.exe.config
+D:\Cursos\Fazendo\C# POO\Curso\CursoPOO\CursoPOO\bin\Debug\CursoPOO.exe
+D:\Cursos\Fazendo\C# POO\Curso\CursoPOO\CursoPOO\bin\Debug\CursoPOO.pdb
+D:\Cursos\Fazendo\C# POO\Curso\CursoPOO\CursoPOO\obj\Debug\CursoPOO.csproj.AssemblyReference.cache
+D:\Cursos\Fazendo\C# POO\Curso\CursoPOO\CursoPOO\obj\Debug\CursoPOO.csproj.CoreCompileInputs.cache
+D:\Cursos\Fazendo\C# POO\Curso\CursoPOO\CursoPOO\obj\Debug\CursoPOO.exe
+D:\Cursos\Fazendo\C# POO\Curso\CursoPOO\CursoPOO\obj\Debug\CursoPOO.pdb
