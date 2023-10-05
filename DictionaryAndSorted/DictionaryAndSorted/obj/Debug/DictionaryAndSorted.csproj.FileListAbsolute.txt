@@ -1,0 +1,7 @@
+D:\Cursos\Fazendo\C# POO\Curso\DictionaryAndSorted\DictionaryAndSorted\bin\Debug\DictionaryAndSorted.exe.config
+D:\Cursos\Fazendo\C# POO\Curso\DictionaryAndSorted\DictionaryAndSorted\bin\Debug\DictionaryAndSorted.exe
+D:\Cursos\Fazendo\C# POO\Curso\DictionaryAndSorted\DictionaryAndSorted\bin\Debug\DictionaryAndSorted.pdb
+D:\Cursos\Fazendo\C# POO\Curso\DictionaryAndSorted\DictionaryAndSorted\obj\Debug\DictionaryAndSorted.csproj.AssemblyReference.cache
+D:\Cursos\Fazendo\C# POO\Curso\DictionaryAndSorted\DictionaryAndSorted\obj\Debug\DictionaryAndSorted.csproj.CoreCompileInputs.cache
+D:\Cursos\Fazendo\C# POO\Curso\DictionaryAndSorted\DictionaryAndSorted\obj\Debug\DictionaryAndSorted.exe
+D:\Cursos\Fazendo\C# POO\Curso\DictionaryAndSorted\DictionaryAndSorted\obj\Debug\DictionaryAndSorted.pdb
