@@ -1,0 +1,7 @@
+D:\Cursos\Fazendo\C# POO\Curso\HashAndSorted\HashAndSorted\bin\Debug\HashAndSorted.exe.config
+D:\Cursos\Fazendo\C# POO\Curso\HashAndSorted\HashAndSorted\bin\Debug\HashAndSorted.exe
+D:\Cursos\Fazendo\C# POO\Curso\HashAndSorted\HashAndSorted\bin\Debug\HashAndSorted.pdb
+D:\Cursos\Fazendo\C# POO\Curso\HashAndSorted\HashAndSorted\obj\Debug\HashAndSorted.csproj.AssemblyReference.cache
+D:\Cursos\Fazendo\C# POO\Curso\HashAndSorted\HashAndSorted\obj\Debug\HashAndSorted.csproj.CoreCompileInputs.cache
+D:\Cursos\Fazendo\C# POO\Curso\HashAndSorted\HashAndSorted\obj\Debug\HashAndSorted.exe
+D:\Cursos\Fazendo\C# POO\Curso\HashAndSorted\HashAndSorted\obj\Debug\HashAndSorted.pdb
