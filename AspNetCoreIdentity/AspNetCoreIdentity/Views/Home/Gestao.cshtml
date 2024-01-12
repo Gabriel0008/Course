@@ -1,0 +1,23 @@
+﻿@using AspNetCoreIdentity.Extensions
+@{
+    ViewData["Title"] = "Gestão";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Disponível apenas para gestores</p>
+
+@{
+    if (this.IfClaim("Produto", "Adicionar"))
+    {
+        <p> Você Só verá isso se tiver permissão de adicionar Produtos!</p>
+    }
+}
+
+<div>
+    @Html.ActionLink("Vendedores","Vendedores").IfClaimShow(Context,"Produto","Adicionar")
+</div>
+<br/>
+<div>
+    <a href="#" class="btn btn-danger @Html.Raw(this.IfClaimShow("Produto","Adicionar"))">Excluir</a>
+</div>
+
