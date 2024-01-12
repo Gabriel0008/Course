@@ -1,7 +1,0 @@
-D:\Cursos\Fazendo\C# POO\Curso\ExceptionTreatment\ExceptionTreatment\bin\Debug\ExceptionTreatment.exe.config
-D:\Cursos\Fazendo\C# POO\Curso\ExceptionTreatment\ExceptionTreatment\bin\Debug\ExceptionTreatment.exe
-D:\Cursos\Fazendo\C# POO\Curso\ExceptionTreatment\ExceptionTreatment\bin\Debug\ExceptionTreatment.pdb
-D:\Cursos\Fazendo\C# POO\Curso\ExceptionTreatment\ExceptionTreatment\obj\Debug\ExceptionTreatment.csproj.AssemblyReference.cache
-D:\Cursos\Fazendo\C# POO\Curso\ExceptionTreatment\ExceptionTreatment\obj\Debug\ExceptionTreatment.csproj.CoreCompileInputs.cache
-D:\Cursos\Fazendo\C# POO\Curso\ExceptionTreatment\ExceptionTreatment\obj\Debug\ExceptionTreatment.exe
-D:\Cursos\Fazendo\C# POO\Curso\ExceptionTreatment\ExceptionTreatment\obj\Debug\ExceptionTreatment.pdb

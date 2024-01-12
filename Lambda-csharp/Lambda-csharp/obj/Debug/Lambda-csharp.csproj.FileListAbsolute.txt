@@ -1,7 +1,0 @@
-D:\Cursos\Fazendo\C# POO\Curso\Lambda-csharp\Lambda-csharp\bin\Debug\Lambda-csharp.exe.config
-D:\Cursos\Fazendo\C# POO\Curso\Lambda-csharp\Lambda-csharp\bin\Debug\Lambda-csharp.exe
-D:\Cursos\Fazendo\C# POO\Curso\Lambda-csharp\Lambda-csharp\bin\Debug\Lambda-csharp.pdb
-D:\Cursos\Fazendo\C# POO\Curso\Lambda-csharp\Lambda-csharp\obj\Debug\Lambda-csharp.csproj.AssemblyReference.cache
-D:\Cursos\Fazendo\C# POO\Curso\Lambda-csharp\Lambda-csharp\obj\Debug\Lambda-csharp.csproj.CoreCompileInputs.cache
-D:\Cursos\Fazendo\C# POO\Curso\Lambda-csharp\Lambda-csharp\obj\Debug\Lambda-csharp.exe
-D:\Cursos\Fazendo\C# POO\Curso\Lambda-csharp\Lambda-csharp\obj\Debug\Lambda-csharp.pdb

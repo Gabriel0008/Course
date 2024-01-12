@@ -1,7 +1,0 @@
-D:\Cursos\Fazendo\C# POO\Curso\HerancaAbstract\HerancaAbstract\obj\Debug\HerancaAbstract.csproj.AssemblyReference.cache
-D:\Cursos\Fazendo\C# POO\Curso\HerancaAbstract\HerancaAbstract\obj\Debug\HerancaAbstract.csproj.CoreCompileInputs.cache
-D:\Cursos\Fazendo\C# POO\Curso\HerancaAbstract\HerancaAbstract\bin\Debug\HerancaAbstract.exe.config
-D:\Cursos\Fazendo\C# POO\Curso\HerancaAbstract\HerancaAbstract\bin\Debug\HerancaAbstract.exe
-D:\Cursos\Fazendo\C# POO\Curso\HerancaAbstract\HerancaAbstract\bin\Debug\HerancaAbstract.pdb
-D:\Cursos\Fazendo\C# POO\Curso\HerancaAbstract\HerancaAbstract\obj\Debug\HerancaAbstract.exe
-D:\Cursos\Fazendo\C# POO\Curso\HerancaAbstract\HerancaAbstract\obj\Debug\HerancaAbstract.pdb
