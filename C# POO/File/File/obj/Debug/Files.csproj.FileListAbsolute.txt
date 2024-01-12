@@ -1,0 +1,7 @@
+D:\Cursos\Fazendo\C# POO\Curso\File\File\bin\Debug\File.exe.config
+D:\Cursos\Fazendo\C# POO\Curso\File\File\bin\Debug\File.exe
+D:\Cursos\Fazendo\C# POO\Curso\File\File\bin\Debug\File.pdb
+D:\Cursos\Fazendo\C# POO\Curso\File\File\obj\Debug\Files.csproj.AssemblyReference.cache
+D:\Cursos\Fazendo\C# POO\Curso\File\File\obj\Debug\Files.csproj.CoreCompileInputs.cache
+D:\Cursos\Fazendo\C# POO\Curso\File\File\obj\Debug\File.exe
+D:\Cursos\Fazendo\C# POO\Curso\File\File\obj\Debug\File.pdb
