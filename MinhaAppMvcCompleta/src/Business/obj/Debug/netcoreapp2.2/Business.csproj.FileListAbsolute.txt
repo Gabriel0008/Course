@@ -1,0 +1,10 @@
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Business\bin\Debug\netcoreapp2.2\Business.deps.json
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Business\bin\Debug\netcoreapp2.2\Business.dll
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Business\bin\Debug\netcoreapp2.2\Business.pdb
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Business\obj\Debug\netcoreapp2.2\Business.csproj.AssemblyReference.cache
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Business\obj\Debug\netcoreapp2.2\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Business\obj\Debug\netcoreapp2.2\Business.AssemblyInfoInputs.cache
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Business\obj\Debug\netcoreapp2.2\Business.AssemblyInfo.cs
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Business\obj\Debug\netcoreapp2.2\Business.csproj.CoreCompileInputs.cache
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Business\obj\Debug\netcoreapp2.2\Business.dll
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Business\obj\Debug\netcoreapp2.2\Business.pdb

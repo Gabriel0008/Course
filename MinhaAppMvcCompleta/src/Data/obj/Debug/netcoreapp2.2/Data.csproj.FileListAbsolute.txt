@@ -1,0 +1,13 @@
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Data\bin\Debug\netcoreapp2.2\Data.deps.json
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Data\bin\Debug\netcoreapp2.2\Data.dll
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Data\bin\Debug\netcoreapp2.2\Data.pdb
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Data\bin\Debug\netcoreapp2.2\Business.dll
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Data\bin\Debug\netcoreapp2.2\Business.pdb
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Data\obj\Debug\netcoreapp2.2\Data.csproj.AssemblyReference.cache
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Data\obj\Debug\netcoreapp2.2\Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Data\obj\Debug\netcoreapp2.2\Data.AssemblyInfoInputs.cache
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Data\obj\Debug\netcoreapp2.2\Data.AssemblyInfo.cs
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Data\obj\Debug\netcoreapp2.2\Data.csproj.CoreCompileInputs.cache
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Data\obj\Debug\netcoreapp2.2\Data.csproj.CopyComplete
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Data\obj\Debug\netcoreapp2.2\Data.dll
+D:\Cursos\Atividades\MinhaAppMvcCompleta\src\Data\obj\Debug\netcoreapp2.2\Data.pdb
