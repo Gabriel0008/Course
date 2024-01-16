@@ -13262,11 +13262,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Cursos\\Atividades\\appModelo\\src\\MyDevIO.AppModelo\\MyDevIO.AppModelo.csproj",
+      "projectUniqueName": "D:\\Cursos\\Atividades\\C# MVC\\AppMvcBare\\src\\MyDevIO.AppModelo\\MyDevIO.AppModelo.csproj",
       "projectName": "MyDevIO.AppModelo",
-      "projectPath": "D:\\Cursos\\Atividades\\appModelo\\src\\MyDevIO.AppModelo\\MyDevIO.AppModelo.csproj",
+      "projectPath": "D:\\Cursos\\Atividades\\C# MVC\\AppMvcBare\\src\\MyDevIO.AppModelo\\MyDevIO.AppModelo.csproj",
       "packagesPath": "C:\\Users\\Veronica\\.nuget\\packages\\",
-      "outputPath": "D:\\Cursos\\Atividades\\appModelo\\src\\MyDevIO.AppModelo\\obj\\",
+      "outputPath": "D:\\Cursos\\Atividades\\C# MVC\\AppMvcBare\\src\\MyDevIO.AppModelo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

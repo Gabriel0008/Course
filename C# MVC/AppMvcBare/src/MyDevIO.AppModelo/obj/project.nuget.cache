@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7KX02Pe+W7NgXzA55dChAFOFv1L0wKEPsYXriWgxaQtDAyPhzD0fef5cG/pocjJyS8vN7lH2ThFVnUBX7xsjHw==",
+  "dgSpecHash": "7L90WS5GbZ7jqN8Uqt75zOOLfOroO5csBy9FIm/8ENx3i68v5qXLLRsAMA7SjhaLJTh1XzpNNKwGmnPH2BfuwA==",
   "success": true,
-  "projectFilePath": "D:\\Cursos\\Atividades\\appModelo\\src\\MyDevIO.AppModelo\\MyDevIO.AppModelo.csproj",
+  "projectFilePath": "D:\\Cursos\\Atividades\\C# MVC\\AppMvcBare\\src\\MyDevIO.AppModelo\\MyDevIO.AppModelo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Veronica\\.nuget\\packages\\bundlerminifier.core\\3.2.449\\bundlerminifier.core.3.2.449.nupkg.sha512",
     "C:\\Users\\Veronica\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
