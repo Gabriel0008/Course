@@ -13,7 +13,7 @@ namespace Data.Repository
     {
         public FornecedorRepository(MeuDbContext context) : base(context) { }
 
-        public async Task<Fornecedor> ObterFornecedorEndereco(Guid id)
+        public async Task<Fornecedor> ObterFornecedorEndereco(Guid id) //Obtem fornecedores + Endereço
         {
             return await Db.Fornecedores.AsNoTracking()
                 .Include(x => x.Endereco)

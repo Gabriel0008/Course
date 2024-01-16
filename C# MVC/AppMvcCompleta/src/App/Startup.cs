@@ -1,4 +1,5 @@
 ﻿using App.Data;
+using AutoMapper;
 using Business.Interfaces;
 using Data.Context;
 using Data.Repository;
@@ -55,6 +56,8 @@ namespace App
             services.AddScoped<IProdutoRepository,ProdutoRepository>();
             services.AddScoped<IFornecedorRepository,FornecedorRepository>();
             services.AddScoped<IEnderecoRepository,EnderecoRepository>();
+
+            services.AddAutoMapper(typeof(Startup));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
