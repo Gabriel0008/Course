@@ -88,3 +88,5 @@ D:\Cursos\Atividades\C# MVC\AppMvcCompleta\src\App\obj\Debug\netcoreapp2.2\Razor
 D:\Cursos\Atividades\C# MVC\AppMvcCompleta\src\App\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Details.cshtml.g.cs
 D:\Cursos\Atividades\C# MVC\AppMvcCompleta\src\App\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Edit.cshtml.g.cs
 D:\Cursos\Atividades\C# MVC\AppMvcCompleta\src\App\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Index.cshtml.g.cs
+D:\Cursos\Atividades\C# MVC\AppMvcCompleta\src\App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedores\_Endereco.cshtml.g.cs
+D:\Cursos\Atividades\C# MVC\AppMvcCompleta\src\App\bin\Debug\netcoreapp2.2\libman.json

@@ -13,6 +13,7 @@ namespace App.Data
             : base(options)
         {
         }
+        public DbSet<App.ViewModels.EnderecoViewModel> EnderecoViewModel { get; set; }
 
         
     }
