@@ -6,6 +6,8 @@ using App.ViewModels;
 using Business.Interfaces;
 using AutoMapper;
 using Business.Models;
+using Microsoft.AspNetCore.Http;
+using System.IO;
 
 namespace App.Controllers
 {
@@ -14,8 +16,8 @@ namespace App.Controllers
         private readonly IProdutoRepository _produtoRepository;
         private readonly IFornecedorRepository _fornecedorRepository;
         private readonly IMapper _mapper;
-        public ProdutosController(IProdutoRepository produtoRepository, 
-                                    IFornecedorRepository fornecedorRepository, 
+        public ProdutosController(IProdutoRepository produtoRepository,
+                                    IFornecedorRepository fornecedorRepository,
                                     IMapper mapper)
         {
             _produtoRepository = produtoRepository;
@@ -53,15 +55,23 @@ namespace App.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create( ProdutoViewModel produtoViewModel)
+        public async Task<IActionResult> Create(ProdutoViewModel produtoViewModel)
         {
 
-            produtoViewModel = await PopularFornecedores(new ProdutoViewModel());
+            produtoViewModel = await PopularFornecedores(produtoViewModel);
             if (!ModelState.IsValid) return View(produtoViewModel);
 
+            var imgPrefixo = Guid.NewGuid() + "_";
+            if (!await UploadArquivo(produtoViewModel.ImagemUpload, imgPrefixo))
+            {
+                return View(produtoViewModel);
+            }
+
+            produtoViewModel.Imagem = imgPrefixo + produtoViewModel.ImagemUpload.FileName;
+
             await _produtoRepository.Adicionar(_mapper.Map<Produto>(produtoViewModel));
-            
-            return View(produtoViewModel);
+
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Produtos/Edit/5
@@ -82,14 +92,34 @@ namespace App.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("Id,FornecedorId,Nome,Descricao,Imagem,Valor,Ativo")] ProdutoViewModel produtoViewModel)
+        public async Task<IActionResult> Edit(Guid id, ProdutoViewModel produtoViewModel)
         {
             if (id != produtoViewModel.Id) return NotFound();
 
-
+            var produtoatt = await ObterProduto(id);
+            produtoViewModel.Fornecedor = produtoatt.Fornecedor;
+            produtoViewModel.Imagem = produtoatt.Imagem;
             if (!ModelState.IsValid) return View(produtoViewModel);
 
-            await _produtoRepository.Atualizar(_mapper.Map<Produto>(produtoViewModel));
+            if (produtoViewModel.ImagemUpload != null)
+            {
+                var imgPrefixo = Guid.NewGuid() + "_";
+                if (!await UploadArquivo(produtoViewModel.ImagemUpload, imgPrefixo))
+                {
+                    return View(produtoViewModel);
+                }
+
+                produtoatt.Imagem = imgPrefixo + produtoViewModel.ImagemUpload.FileName;
+
+            }
+
+            produtoatt.Nome = produtoViewModel.Nome;
+            produtoatt.Descricao = produtoViewModel.Descricao;
+            produtoatt.Valor = produtoViewModel.Valor;
+            produtoatt.Ativo = produtoViewModel.Ativo;
+
+
+            await _produtoRepository.Atualizar(_mapper.Map<Produto>(produtoatt));
 
             return RedirectToAction(nameof(Index));
         }
@@ -115,7 +145,7 @@ namespace App.Controllers
         {
             var produto = await ObterProduto(id);
 
-            if(produto == null)
+            if (produto == null)
             {
                 return NotFound();
             }
@@ -127,7 +157,7 @@ namespace App.Controllers
 
         private async Task<ProdutoViewModel> ObterProduto(Guid id)
         {
-            var produto = _mapper.Map<ProdutoViewModel>( await _produtoRepository.ObterProdutoFornecedor(id));
+            var produto = _mapper.Map<ProdutoViewModel>(await _produtoRepository.ObterProdutoFornecedor(id));
             produto.Fornecedores = _mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.ObterTodos());
             return produto;
         }
@@ -136,6 +166,37 @@ namespace App.Controllers
         {
             produto.Fornecedores = _mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.ObterTodos());
             return produto;
+        }
+
+        private async Task<bool> UploadArquivo(IFormFile arquivo, string imgPrefixo)
+        {
+            if (arquivo == null)
+            {
+                ModelState.AddModelError(string.Empty, "Erro ao carregar a Imagem!");
+                return false;
+            }
+
+            if (arquivo.Length <= 0)
+            {
+                ModelState.AddModelError(string.Empty, "Erro ao carregar a Imagem!");
+                return false;
+            }
+
+
+            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/imagens", imgPrefixo + arquivo.FileName);
+
+            if (System.IO.File.Exists(path))
+            {
+                ModelState.AddModelError(string.Empty, "Já existe um arquivo com este nome!");
+                return false;
+            }
+
+            using (var stream = new FileStream(path, FileMode.Create))
+            {
+                await arquivo.CopyToAsync(stream);
+            }
+
+            return true;
         }
     }
 }
