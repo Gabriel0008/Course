@@ -1,4 +1,5 @@
-﻿using Business.Models;
+﻿using App.Extensions;
+using Business.Models;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -30,6 +31,7 @@ namespace App.ViewModels
 
         public string Imagem { get; set; }
 
+        [Moeda]
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         public decimal Valor { get; set; }
 
