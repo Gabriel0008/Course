@@ -29,7 +29,7 @@ using App.Extensions;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"cde330be92d7b8e8edd364896c3479a494b6f2522f26a8efbc717d89112fe3fe", @"/Views/Fornecedores/Delete.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"030202961b49d5a6543bcd011deb70997629ebf52e2809efd5af8bf28dac0909", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"17b51186480762055cc655f44d5f18c60f331098a8ea6dd26c528c5b8479ec11", @"/Views/_ViewImports.cshtml")]
     public class Views_Fornecedores_Delete : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<App.ViewModels.FornecedorViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("type", "hidden", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

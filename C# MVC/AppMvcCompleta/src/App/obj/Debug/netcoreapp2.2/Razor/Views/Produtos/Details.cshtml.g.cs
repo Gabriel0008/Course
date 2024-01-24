@@ -24,7 +24,7 @@ using App.Models;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"92794a99c0878cfec64b1cf4e827392e7465085a350ca7368bac8a3695f39d4a", @"/Views/Produtos/Details.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"030202961b49d5a6543bcd011deb70997629ebf52e2809efd5af8bf28dac0909", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"17b51186480762055cc655f44d5f18c60f331098a8ea6dd26c528c5b8479ec11", @"/Views/_ViewImports.cshtml")]
     public class Views_Produtos_Details : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<App.ViewModels.ProdutoViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("style", new global::Microsoft.AspNetCore.Html.HtmlString("width: 300px; height: 300px"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

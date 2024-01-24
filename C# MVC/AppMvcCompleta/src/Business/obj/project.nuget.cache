@@ -1,16 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "Jace1VL9ItEMk1GPSuw4/VhHtLH2FiOdeDAg8tbIocgektR0KCQiyE0PSBW0iOYr8zODcX5w6IHftbG9mnfH+A==",
+  "dgSpecHash": "mCcAl71X6gIrl4RtN4qUJ501n8Wt+gBp9Oc99OwfsRikUNYGrqpybcaBOQIvXLlGMDfg27VKqYHTRBfgZttu0g==",
   "success": true,
   "projectFilePath": "D:\\Cursos\\Atividades\\C# MVC\\AppMvcCompleta\\src\\Business\\Business.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Veronica\\.nuget\\packages\\fluentvalidation\\8.3.0\\fluentvalidation.8.3.0.nupkg.sha512",
     "C:\\Users\\Veronica\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
     "C:\\Users\\Veronica\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",
     "C:\\Users\\Veronica\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.2.0\\microsoft.netcore.dotnethostpolicy.2.2.0.nupkg.sha512",
     "C:\\Users\\Veronica\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.2.0\\microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
     "C:\\Users\\Veronica\\.nuget\\packages\\microsoft.netcore.platforms\\2.2.0\\microsoft.netcore.platforms.2.2.0.nupkg.sha512",
     "C:\\Users\\Veronica\\.nuget\\packages\\microsoft.netcore.targets\\2.0.0\\microsoft.netcore.targets.2.0.0.nupkg.sha512",
-    "C:\\Users\\Veronica\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Veronica\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Veronica\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"
   ],
   "logs": []
 }

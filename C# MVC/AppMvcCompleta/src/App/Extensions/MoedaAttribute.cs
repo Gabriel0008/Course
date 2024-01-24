@@ -19,7 +19,7 @@ namespace App.Extensions
             {
                 return new ValidationResult("Moeda em formato invalido");
             }
-            return base.IsValid(value, validationContext);
+            return ValidationResult.Success;
         }
     }
 

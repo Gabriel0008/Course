@@ -25,13 +25,13 @@ namespace App.Controllers
             _fornecedorRepository = fornecedorRepository;
         }
 
-        // GET: Produtos
+        [Route("lista-de-produtos")]
         public async Task<IActionResult> Index()
         {
             return View(_mapper.Map<IEnumerable<ProdutoViewModel>>(await _produtoRepository.ObterProdutosFornecedores()));
         }
 
-        // GET: Produtos/Details/5
+        [Route("dados-do-produto/{id:guid}")]
         public async Task<IActionResult> Details(Guid id)
         {
             var produtoViewModel = await ObterProduto(id);
@@ -43,16 +43,14 @@ namespace App.Controllers
             return View(produtoViewModel);
         }
 
-        // GET: Produtos/Create
+        [Route("novo-produto")]
         public async Task<IActionResult> Create()
         {
             var produtoViewModel = await PopularFornecedores(new ProdutoViewModel());
             return View(produtoViewModel);
         }
 
-        // POST: Produtos/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Route("novo-produto")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ProdutoViewModel produtoViewModel)
@@ -74,7 +72,7 @@ namespace App.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        // GET: Produtos/Edit/5
+        [Route("editar-produto/{id:guid}")]
         public async Task<IActionResult> Edit(Guid id)
         {
 
@@ -87,9 +85,7 @@ namespace App.Controllers
             return View(produtoViewModel);
         }
 
-        // POST: Produtos/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Route("editar-produto/{id:guid}")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Guid id, ProdutoViewModel produtoViewModel)
@@ -124,7 +120,7 @@ namespace App.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        // GET: Produtos/Delete/5
+        [Route("excluir-produto/{id:guid}")]
         public async Task<IActionResult> Delete(Guid id)
         {
 
@@ -138,7 +134,7 @@ namespace App.Controllers
             return View(produtoViewModel);
         }
 
-        // POST: Produtos/Delete/5
+        [Route("excluir-produto/{id:guid}")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
@@ -154,7 +150,7 @@ namespace App.Controllers
 
             return RedirectToAction(nameof(Index));
         }
-
+        
         private async Task<ProdutoViewModel> ObterProduto(Guid id)
         {
             var produto = _mapper.Map<ProdutoViewModel>(await _produtoRepository.ObterProdutoFornecedor(id));
