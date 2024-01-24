@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "yI2xNGpZQxuVdpJ37UZ2nwR+iQ5TJHvwQUeUnm3/5LA2QHNCYhfY4OB/oJ3t3XlxSN3ZLkEr7z3jw6qUIQn7Xg==",
+  "dgSpecHash": "GBq8UJ2+8pSNh4hBXInG02VjYkLcoTMsSovSsVgmCOFIDgVyAFPc7pl+Az4Ra3VQgYTme9GzPUVjOCVvyRApHA==",
   "success": true,
   "projectFilePath": "D:\\Cursos\\Atividades\\C# MVC\\AppMvcCompleta\\src\\App\\App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Veronica\\.nuget\\packages\\automapper\\8.1.0\\automapper.8.1.0.nupkg.sha512",
     "C:\\Users\\Veronica\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.0\\automapper.extensions.microsoft.dependencyinjection.6.1.0.nupkg.sha512",
+    "C:\\Users\\Veronica\\.nuget\\packages\\fluentvalidation\\8.3.0\\fluentvalidation.8.3.0.nupkg.sha512",
     "C:\\Users\\Veronica\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Veronica\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
     "C:\\Users\\Veronica\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

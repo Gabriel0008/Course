@@ -15,7 +15,7 @@ namespace Business.Models.Validations
 
             When(f => f.TipoFornecedor == TipoFornecedor.PessoaFisica, () => {
                 RuleFor(f => f.Documento.Length).Equal(CpfValidacao.TamanhoCpf)
-                .WithMessage("O campo Documento precisa ter {ComparisonValure} caracteres e for fornecido {PropertyValue}.");
+                .WithMessage("O campo Documento precisa ter {ComparisonValue} caracteres e foram fornecido {PropertyValue}.");
 
                 RuleFor(f => CpfValidacao.Validar(f.Documento)).Equal(true)
                 .WithMessage("O documento fornecido é inválido.");
@@ -24,7 +24,7 @@ namespace Business.Models.Validations
 
             When(f => f.TipoFornecedor == TipoFornecedor.PessoaJuridica, () => {
                 RuleFor(f => f.Documento.Length).Equal(CnpjValidacao.TamanhoCnpj)
-                .WithMessage("O campo Documento precisa ter {ComparisonValure} caracteres e for fornecido {PropertyValue}.");
+                .WithMessage("O campo Documento precisa ter {ComparisonValuee} caracteres e foram fornecido {PropertyValue}.");
 
                 RuleFor(f => CnpjValidacao.Validar(f.Documento)).Equal(true)
                 .WithMessage("O documento fornecido é inválido.");
